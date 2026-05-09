@@ -1,0 +1,20 @@
+# ── Core framework ──────────────────────────────────────────────────────────
+langgraph>=0.2.0
+langchain-core>=0.2.0
+langchain-openai>=0.1.0
+
+# ── LLM provider ────────────────────────────────────────────────────────────
+openai>=1.30.0
+
+# ── Search tools (at least one required) ────────────────────────────────────
+tavily-python>=0.3.0           # recommended – best quality
+duckduckgo-search>=6.0.0       # free fallback
+
+# ── Academic search ──────────────────────────────────────────────────────────
+arxiv>=2.1.0
+
+# ── PDF parsing ──────────────────────────────────────────────────────────────
+pypdf>=4.0.0
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0           # for loading .env files
